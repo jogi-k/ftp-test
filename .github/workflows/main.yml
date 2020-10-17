@@ -10,7 +10,6 @@ jobs:
             --standalone
             --output=index.html
             README.md
-:
      
   FTP-Deploy-Action:
     name: FTP-Deploy-Action
