@@ -4,7 +4,10 @@ jobs:
    convert_via_pandoc:
     runs-on: ubuntu-18.04
     steps:
-      - uses: docker://pandoc/core:2.9
+     - uses: actions/checkout@v2.1.0
+       with:
+        fetch-depth: 2
+     - uses: docker://pandoc/core:2.9
         with:
           args: >-
             --standalone
