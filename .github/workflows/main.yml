@@ -6,13 +6,11 @@ jobs:
     steps:
       - uses: docker://pandoc/core:2.9
         with:
-          args: |>  # allows you to break string into multiple lines
+          args: |>
             --standalone
             --output=index.html
             README.md
-     
-  FTP-Deploy-Action:
-    name: FTP-Deploy-Action
+   FTP-Deploy-Action:
     runs-on: ubuntu-18.04
     steps:
     - uses: actions/checkout@v2.1.0
