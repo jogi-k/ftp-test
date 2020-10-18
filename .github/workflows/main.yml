@@ -8,7 +8,7 @@ jobs:
        with:
         fetch-depth: 2
      - uses: docker://pandoc/core:2.9
-        with:
+       with:
           args: >-
             --standalone
             --output=index.html
