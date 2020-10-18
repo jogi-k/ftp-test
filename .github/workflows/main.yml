@@ -13,16 +13,3 @@ jobs:
             --standalone
             --output=index.html
             README.md
-   FTP-Deploy-Action:
-    runs-on: ubuntu-18.04
-    steps:
-    - uses: actions/checkout@v2.1.0
-      with:
-        fetch-depth: 2
-    - name: FTP-Deploy-Action
-      uses: SamKirkland/FTP-Deploy-Action@3.1.1
-      with:
-        ftp-server: ${{ secrets.FTP_SERVER }}
-        ftp-username: ${{ secrets.FTP_USERNAME }}
-        ftp-password: ${{ secrets.FTP_PASSWORD }}
-        git-ftp-args: --insecure
