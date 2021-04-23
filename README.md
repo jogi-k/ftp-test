@@ -8,3 +8,5 @@
 * Test two
 * UNd jtzt? Ein ![Link|test.html] 
 * Does this now work?
+* It looks like : Yes
+* And unfortunately it destroyed the original contents , partially at least 
