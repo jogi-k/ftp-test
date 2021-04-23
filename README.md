@@ -1,4 +1,4 @@
-# ftp-test
+# Micro-Controllers
 
 * Just a plain test for ftp-ing stuff with github actions onto my webspace
 * And another text for testing...
