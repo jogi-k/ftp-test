@@ -6,7 +6,8 @@
 * Next step : convert MD to HTML and push that...
 * Test one
 * Test two
-* UNd jtzt? Ein ![Link|test.html] 
+* UNd jetzt? Ein ![Link|test.html] 
 * Does this now work?
 * It looks like : Yes
-* And unfortunately it destroyed the original contents , partially at least 
+* See the final result at http://calliope-jogi.org/micro-controller 
+* Not much yet, but at least the simple conversion and the sftp-ing from the pipeline here seems to work
